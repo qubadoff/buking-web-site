@@ -1,10 +1,12 @@
 import React from "react";
+import backPhoto from "./../../../assets/backg.webp";
 
 const Home = () => {
   return (
     <section
       className="relative bg-cover bg-center h-[120vh] pt-[200px] text-white"
-      style={{ backgroundImage: "url('/images/bg.jpg')" }} // şəkilin yolunu dəyiş
+      style={{ 
+        backgroundImage: `url(${backPhoto})` }} 
     >
       <div className="bg-black bg-opacity-50 absolute inset-0 z-0"></div>
 
